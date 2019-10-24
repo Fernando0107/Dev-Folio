@@ -2,6 +2,19 @@
     "info":{
         "name": "Fernando Gonzalez",
         "phone": "(+502)3404-4860",
-        "mail": "devfgonzalez@outlook.com"
+        "mail": "devfgonzalez@outlook.com",
+        "roles":{
+            "role1":"Computer Science Ingineer",
+            "role2":"Full-Stack Developer",
+            "role3": "Frontend Developer",
+            "role4":"Backend Developer"
+        },
+        "profile":"Full Stack Developer"
+    },
+    "skill":{
+        "s1":"Python",
+        "s2":"JavaScript",
+        "s3":"Docker",
+        "s4":"Travis CI"
     }
 }
