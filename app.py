@@ -11,11 +11,12 @@ app = Flask(__name__)
 with open('info.json') as f:
   data = json.load(f)
 
+
 @app.route('/') 
 
 def index():
 
-    return render_template("index.html")
+    return render_template("index.html", name=data['info']["name"], phone=data['info']["phone"], mail=data['info']["mail"], profile=data['info']["profile"])
 
 
 if __name__ == '__main__':

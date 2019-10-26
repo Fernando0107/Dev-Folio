@@ -10,5 +10,14 @@ install:
 
   - pip install -r requirements.txt
 
+deploy:
+
+  provider: heroku
+  api_key:
+    secure: 474318ef-2c76-42fd-8cf8-20e5a6dcde5a
+  app: dev-portafolio
+  on:
+    repo: Fernando0107/https://github.com/Fernando0107/Dev-Folio
+
 
 script: pytest
